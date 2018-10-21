@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		439BC797217D089800A279BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439BC796217D089800A279BE /* AppDelegate.swift */; };
+		439BC799217D089800A279BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439BC798217D089800A279BE /* ViewController.swift */; };
+		439BC79C217D089800A279BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439BC79A217D089800A279BE /* Main.storyboard */; };
+		439BC79E217D089800A279BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439BC79D217D089800A279BE /* Assets.xcassets */; };
+		439BC7A1217D089800A279BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439BC79F217D089800A279BE /* LaunchScreen.storyboard */; };
+		439BC7AC217D089800A279BE /* Lecture_57___Permanent_Data_StorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439BC7AB217D089800A279BE /* Lecture_57___Permanent_Data_StorageTests.swift */; };
+		439BC7B7217D089800A279BE /* Lecture_57___Permanent_Data_StorageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439BC7B6217D089800A279BE /* Lecture_57___Permanent_Data_StorageUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		439BC7A8217D089800A279BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 439BC78B217D089800A279BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 439BC792217D089800A279BE;
+			remoteInfo = "Lecture 57 - Permanent Data Storage";
+		};
+		439BC7B3217D089800A279BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 439BC78B217D089800A279BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 439BC792217D089800A279BE;
+			remoteInfo = "Lecture 57 - Permanent Data Storage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		439BC793217D089800A279BE /* Lecture 57 - Permanent Data Storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecture 57 - Permanent Data Storage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		439BC796217D089800A279BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		439BC798217D089800A279BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		439BC79B217D089800A279BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		439BC79D217D089800A279BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		439BC7A0217D089800A279BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		439BC7A2217D089800A279BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439BC7A7217D089800A279BE /* Lecture 57 - Permanent Data StorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lecture 57 - Permanent Data StorageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		439BC7AB217D089800A279BE /* Lecture_57___Permanent_Data_StorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lecture_57___Permanent_Data_StorageTests.swift"; sourceTree = "<group>"; };
+		439BC7AD217D089800A279BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439BC7B2217D089800A279BE /* Lecture 57 - Permanent Data StorageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lecture 57 - Permanent Data StorageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		439BC7B6217D089800A279BE /* Lecture_57___Permanent_Data_StorageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lecture_57___Permanent_Data_StorageUITests.swift"; sourceTree = "<group>"; };
+		439BC7B8217D089800A279BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		439BC790217D089800A279BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439BC7A4217D089800A279BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439BC7AF217D089800A279BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		439BC78A217D089800A279BE = {
+			isa = PBXGroup;
+			children = (
+				439BC795217D089800A279BE /* Lecture 57 - Permanent Data Storage */,
+				439BC7AA217D089800A279BE /* Lecture 57 - Permanent Data StorageTests */,
+				439BC7B5217D089800A279BE /* Lecture 57 - Permanent Data StorageUITests */,
+				439BC794217D089800A279BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		439BC794217D089800A279BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				439BC793217D089800A279BE /* Lecture 57 - Permanent Data Storage.app */,
+				439BC7A7217D089800A279BE /* Lecture 57 - Permanent Data StorageTests.xctest */,
+				439BC7B2217D089800A279BE /* Lecture 57 - Permanent Data StorageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439BC795217D089800A279BE /* Lecture 57 - Permanent Data Storage */ = {
+			isa = PBXGroup;
+			children = (
+				439BC796217D089800A279BE /* AppDelegate.swift */,
+				439BC798217D089800A279BE /* ViewController.swift */,
+				439BC79A217D089800A279BE /* Main.storyboard */,
+				439BC79D217D089800A279BE /* Assets.xcassets */,
+				439BC79F217D089800A279BE /* LaunchScreen.storyboard */,
+				439BC7A2217D089800A279BE /* Info.plist */,
+			);
+			path = "Lecture 57 - Permanent Data Storage";
+			sourceTree = "<group>";
+		};
+		439BC7AA217D089800A279BE /* Lecture 57 - Permanent Data StorageTests */ = {
+			isa = PBXGroup;
+			children = (
+				439BC7AB217D089800A279BE /* Lecture_57___Permanent_Data_StorageTests.swift */,
+				439BC7AD217D089800A279BE /* Info.plist */,
+			);
+			path = "Lecture 57 - Permanent Data StorageTests";
+			sourceTree = "<group>";
+		};
+		439BC7B5217D089800A279BE /* Lecture 57 - Permanent Data StorageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				439BC7B6217D089800A279BE /* Lecture_57___Permanent_Data_StorageUITests.swift */,
+				439BC7B8217D089800A279BE /* Info.plist */,
+			);
+			path = "Lecture 57 - Permanent Data StorageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		439BC792217D089800A279BE /* Lecture 57 - Permanent Data Storage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439BC7BB217D089800A279BE /* Build configuration list for PBXNativeTarget "Lecture 57 - Permanent Data Storage" */;
+			buildPhases = (
+				439BC78F217D089800A279BE /* Sources */,
+				439BC790217D089800A279BE /* Frameworks */,
+				439BC791217D089800A279BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lecture 57 - Permanent Data Storage";
+			productName = "Lecture 57 - Permanent Data Storage";
+			productReference = 439BC793217D089800A279BE /* Lecture 57 - Permanent Data Storage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		439BC7A6217D089800A279BE /* Lecture 57 - Permanent Data StorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439BC7BE217D089800A279BE /* Build configuration list for PBXNativeTarget "Lecture 57 - Permanent Data StorageTests" */;
+			buildPhases = (
+				439BC7A3217D089800A279BE /* Sources */,
+				439BC7A4217D089800A279BE /* Frameworks */,
+				439BC7A5217D089800A279BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				439BC7A9217D089800A279BE /* PBXTargetDependency */,
+			);
+			name = "Lecture 57 - Permanent Data StorageTests";
+			productName = "Lecture 57 - Permanent Data StorageTests";
+			productReference = 439BC7A7217D089800A279BE /* Lecture 57 - Permanent Data StorageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		439BC7B1217D089800A279BE /* Lecture 57 - Permanent Data StorageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439BC7C1217D089800A279BE /* Build configuration list for PBXNativeTarget "Lecture 57 - Permanent Data StorageUITests" */;
+			buildPhases = (
+				439BC7AE217D089800A279BE /* Sources */,
+				439BC7AF217D089800A279BE /* Frameworks */,
+				439BC7B0217D089800A279BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				439BC7B4217D089800A279BE /* PBXTargetDependency */,
+			);
+			name = "Lecture 57 - Permanent Data StorageUITests";
+			productName = "Lecture 57 - Permanent Data StorageUITests";
+			productReference = 439BC7B2217D089800A279BE /* Lecture 57 - Permanent Data StorageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		439BC78B217D089800A279BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Innovaze;
+				TargetAttributes = {
+					439BC792217D089800A279BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					439BC7A6217D089800A279BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 439BC792217D089800A279BE;
+					};
+					439BC7B1217D089800A279BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 439BC792217D089800A279BE;
+					};
+				};
+			};
+			buildConfigurationList = 439BC78E217D089800A279BE /* Build configuration list for PBXProject "Lecture 57 - Permanent Data Storage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 439BC78A217D089800A279BE;
+			productRefGroup = 439BC794217D089800A279BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				439BC792217D089800A279BE /* Lecture 57 - Permanent Data Storage */,
+				439BC7A6217D089800A279BE /* Lecture 57 - Permanent Data StorageTests */,
+				439BC7B1217D089800A279BE /* Lecture 57 - Permanent Data StorageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		439BC791217D089800A279BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439BC7A1217D089800A279BE /* LaunchScreen.storyboard in Resources */,
+				439BC79E217D089800A279BE /* Assets.xcassets in Resources */,
+				439BC79C217D089800A279BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439BC7A5217D089800A279BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439BC7B0217D089800A279BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		439BC78F217D089800A279BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439BC799217D089800A279BE /* ViewController.swift in Sources */,
+				439BC797217D089800A279BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439BC7A3217D089800A279BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439BC7AC217D089800A279BE /* Lecture_57___Permanent_Data_StorageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439BC7AE217D089800A279BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439BC7B7217D089800A279BE /* Lecture_57___Permanent_Data_StorageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		439BC7A9217D089800A279BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 439BC792217D089800A279BE /* Lecture 57 - Permanent Data Storage */;
+			targetProxy = 439BC7A8217D089800A279BE /* PBXContainerItemProxy */;
+		};
+		439BC7B4217D089800A279BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 439BC792217D089800A279BE /* Lecture 57 - Permanent Data Storage */;
+			targetProxy = 439BC7B3217D089800A279BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		439BC79A217D089800A279BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439BC79B217D089800A279BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		439BC79F217D089800A279BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439BC7A0217D089800A279BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		439BC7B9217D089800A279BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		439BC7BA217D089800A279BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		439BC7BC217D089800A279BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M48LHZN4H4;
+				INFOPLIST_FILE = "Lecture 57 - Permanent Data Storage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.innovaze.Lecture-57---Permanent-Data-Storage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		439BC7BD217D089800A279BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M48LHZN4H4;
+				INFOPLIST_FILE = "Lecture 57 - Permanent Data Storage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.innovaze.Lecture-57---Permanent-Data-Storage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		439BC7BF217D089800A279BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M48LHZN4H4;
+				INFOPLIST_FILE = "Lecture 57 - Permanent Data StorageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.innovaze.Lecture-57---Permanent-Data-StorageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lecture 57 - Permanent Data Storage.app/Lecture 57 - Permanent Data Storage";
+			};
+			name = Debug;
+		};
+		439BC7C0217D089800A279BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M48LHZN4H4;
+				INFOPLIST_FILE = "Lecture 57 - Permanent Data StorageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.innovaze.Lecture-57---Permanent-Data-StorageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lecture 57 - Permanent Data Storage.app/Lecture 57 - Permanent Data Storage";
+			};
+			name = Release;
+		};
+		439BC7C2217D089800A279BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M48LHZN4H4;
+				INFOPLIST_FILE = "Lecture 57 - Permanent Data StorageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.innovaze.Lecture-57---Permanent-Data-StorageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lecture 57 - Permanent Data Storage";
+			};
+			name = Debug;
+		};
+		439BC7C3217D089800A279BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M48LHZN4H4;
+				INFOPLIST_FILE = "Lecture 57 - Permanent Data StorageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.innovaze.Lecture-57---Permanent-Data-StorageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lecture 57 - Permanent Data Storage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		439BC78E217D089800A279BE /* Build configuration list for PBXProject "Lecture 57 - Permanent Data Storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439BC7B9217D089800A279BE /* Debug */,
+				439BC7BA217D089800A279BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439BC7BB217D089800A279BE /* Build configuration list for PBXNativeTarget "Lecture 57 - Permanent Data Storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439BC7BC217D089800A279BE /* Debug */,
+				439BC7BD217D089800A279BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439BC7BE217D089800A279BE /* Build configuration list for PBXNativeTarget "Lecture 57 - Permanent Data StorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439BC7BF217D089800A279BE /* Debug */,
+				439BC7C0217D089800A279BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439BC7C1217D089800A279BE /* Build configuration list for PBXNativeTarget "Lecture 57 - Permanent Data StorageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439BC7C2217D089800A279BE /* Debug */,
+				439BC7C3217D089800A279BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 439BC78B217D089800A279BE /* Project object */;
+}
