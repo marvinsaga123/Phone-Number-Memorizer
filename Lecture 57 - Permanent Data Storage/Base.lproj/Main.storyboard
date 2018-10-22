@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,82 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lecture_57___Permanent_Data_Storage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your phone number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PMb-VD-UgG">
+                                <rect key="frame" x="59" y="128" width="296" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="alt-it-7JO">
+                                <rect key="frame" x="20" y="160" width="374" height="30"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZO6-es-yUI">
+                                <rect key="frame" x="125" y="198" width="164" height="30"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Confirm Number">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="confirmNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uKD-qa-5Lf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XXXXXXXXXX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oF-2l-voc">
+                                <rect key="frame" x="134" y="436" width="146" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="default" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVo-D5-AQh">
+                                <rect key="frame" x="182.5" y="410" width="49" height="18"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Memorizer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ia1-tB-wPC">
+                                <rect key="frame" x="108.5" y="91" width="197" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3oF-2l-voc" firstAttribute="top" secondItem="tVo-D5-AQh" secondAttribute="bottom" constant="8" id="4uw-cb-Cn0"/>
+                            <constraint firstItem="3oF-2l-voc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="K1W-Fh-aLa"/>
+                            <constraint firstItem="alt-it-7JO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="NBr-B6-q7F"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZO6-es-yUI" secondAttribute="trailing" constant="125" id="OVJ-pq-shg"/>
+                            <constraint firstItem="ZO6-es-yUI" firstAttribute="top" secondItem="alt-it-7JO" secondAttribute="bottom" constant="8" id="QFA-QG-hJH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="alt-it-7JO" secondAttribute="trailing" constant="20" id="WZN-QY-lGc"/>
+                            <constraint firstItem="PMb-VD-UgG" firstAttribute="top" secondItem="ia1-tB-wPC" secondAttribute="bottom" constant="8" id="XkG-7C-avx"/>
+                            <constraint firstItem="PMb-VD-UgG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b6J-Cd-6Nd"/>
+                            <constraint firstItem="ZO6-es-yUI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="eHB-ze-kVe"/>
+                            <constraint firstItem="ia1-tB-wPC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gjr-Cm-BaK"/>
+                            <constraint firstItem="ia1-tB-wPC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="47" id="mc4-LH-X4l"/>
+                            <constraint firstItem="tVo-D5-AQh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oT1-eS-rDw"/>
+                            <constraint firstItem="alt-it-7JO" firstAttribute="top" secondItem="PMb-VD-UgG" secondAttribute="bottom" constant="8" id="rQ5-94-xIj"/>
+                            <constraint firstItem="3oF-2l-voc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="taM-Bf-rHd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="enterPhoneNumberTextBox" destination="alt-it-7JO" id="w8u-7v-xr9"/>
+                        <outlet property="messageToUserLabel" destination="PMb-VD-UgG" id="hEA-xU-gAF"/>
+                        <outlet property="savedPhoneNumberLabel" destination="3oF-2l-voc" id="Hvk-uS-N3C"/>
+                        <outlet property="statusLabel" destination="tVo-D5-AQh" id="aK4-sz-aYH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="134.78260869565219" y="133.92857142857142"/>
         </scene>
     </scenes>
 </document>
